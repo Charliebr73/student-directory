@@ -2,7 +2,7 @@ script = $0
 puts $0
 
 puts "\n"
-puts "These are my Makers Academy February Cohort fellow:\n\n"
+puts "\tThese are my Makers Academy February Cohort fellow:\n\n"
 puts "\tMario Gintili"
 puts "\tMikhail Dubov"
 puts "\tKarolis Noreika"
