@@ -1,6 +1,10 @@
 script = $0
 puts $0
 
+student_count = 23
+
+# Printing the list of students
+puts "The Students of my Cohort at Makers Academy  "
 puts "\n"
 puts "\tThese are my Makers Academy February Cohort fellow:\n\n"
 puts "\tMario Gintili"
@@ -27,4 +31,8 @@ puts "\tRichard Curteis"
 puts "\tAnna Yanova"
 puts "\tAndrew Cumine"
 puts "\n"
-	
+
+# Finally we print the total
+print "Overal, we have "
+print 23
+print "great students."
