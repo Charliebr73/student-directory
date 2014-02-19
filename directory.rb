@@ -33,6 +33,7 @@ puts "\tAndrew Cumine"
 puts "\n"
 
 # Finally we print the total
-print "Overal, we have "
-print 23
-print "great students."
+print "Overal, we have #{student_count} great students.\n"
+#print "Overal, we have "
+#print student_count
+#print "great students."
