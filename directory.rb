@@ -1,39 +1,43 @@
-script = $0
-puts $0
+# Adding students to an array
 
-student_count = 23
+students = [
+  "Mario Gintili",
+  "Mikhail Dubov",
+  "Karolis Noreika",
+  "Michael Sidon",
+  "Charles De Barros",
+  "Ruslan Vikhor",
+  "Toby Retallick",
+  "Mark Mekhaiel",
+  "Sarah Young",
+  "Hannah Wight",
+  "Khushkaran Singh",
+  "Rick Brunstedt",
+  "Manjit Singh",
+  "Alex Gaudiosi",
+  "Ross Hepburn",
+  "Natascia Marchese",
+  "Tiffanie Chia",
+  "Matthew Thomas",
+  "Freddy McGroarty",
+  "Tyler Rollins",
+  "Richard Curteis",
+  "Anna Yanova",
+  "Andrew Cumine",
+]
 
 # Printing the list of students
 puts "The Students of my Cohort at Makers Academy  "
 puts "\n"
-puts "\tThese are my Makers Academy February Cohort fellow:\n\n"
-puts "\tMario Gintili"
-puts "\tMikhail Dubov"
-puts "\tKarolis Noreika"
-puts "\tMichael Sidon"
-puts "\tCharles De Barros"
-puts "\tRuslan Vikhor"
-puts "\tToby Retallick"
-puts "\tMark Mekhaiel"
-puts "\tSarah Young"
-puts "\tHannah Wight"
-puts "\tKhushkaran Singh"
-puts "\tRick Brunstedt"
-puts "\tManjit Singh"
-puts "\tAlex Gaudiosi"
-puts "\tRoss Hepburn"
-puts "\tNatascia Marchese"
-puts "\tTiffanie Chia"
-puts "\tMatthew Thomas"
-puts "\tFreddy McGroarty"
-puts "\tTyler Rollins"
-puts "\tRichard Curteis"
-puts "\tAnna Yanova"
-puts "\tAndrew Cumine"
-puts "\n"
+puts "These are my Makers Academy February Cohort fellow:\n\n"
+
+students.each do |student|
+  puts "\t#{student}"
+end
 
 # Finally we print the total
-print "Overal, we have #{student_count} great students.\n"
+puts "\n"
+print "Overal, we have #{students.length} great students.\n\n"
 #print "Overal, we have "
 #print student_count
 #print "great students."
