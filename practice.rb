@@ -32,13 +32,20 @@ def print_header
 end
 
 def print(students)
-  students.each do |student|
-    if "#{student[:name]}".slice(0, 1) == "M"
-      puts "#{student[:name]} (#{student[:cohort]} cohort)"
-    end
+  a = 0
+  while a < students.length.to_i
+    puts "#{students[:name]} (#{students[:cohort]} cohort)"
+    a += 1
   end
 end
 
+=begin
+def print(students)
+  students.each do |student|
+    puts "#{student[:name]} (#{student[:cohort]} cohort)"
+  end
+end
+=end
 
 def print_footer(names)    
   puts "Overall, we have #{names.length} great students"
