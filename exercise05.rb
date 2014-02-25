@@ -46,14 +46,14 @@ students = [
 ]
 
 def print_header
-  puts "The students of my cohort at Makers Academy"
+  puts "The students of my cohort at Makers Academy".center(100)
   puts "-------------"
 end
 
 def print(students)
   a = 0
   while a < students.length
-    puts "#{students[a][:name]} (#{students[a][:cohort]} cohort)"
+    puts "#{students[a][:name]} (#{students[a][:cohort]} cohort)".center(100)
     a += 1
   end
 end
