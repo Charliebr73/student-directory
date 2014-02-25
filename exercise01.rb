@@ -24,10 +24,8 @@ def input_students
 end
 
 def display(students)
-  a = 0
-  while a < students.length
-    puts "#{students[a][:name]} {#{students[a][:cohort]} cohort.}"
-    a += 1
+  students.each do |student|
+    print "#{student[:name]} (#{student[:cohort]} cohort) \n"
   end
 end
 
